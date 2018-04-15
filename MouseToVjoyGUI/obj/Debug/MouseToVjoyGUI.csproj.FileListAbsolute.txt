@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\bin\Debug\MouseToVjoyGUI.exe.config
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\bin\Debug\MouseToVjoyGUI.exe
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\bin\Debug\MouseToVjoyGUI.pdb
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Debug\MouseToVjoyGUI.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Debug\MouseToVjoyGUI.Form1.resources
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Debug\MouseToVjoyGUI.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Debug\MouseToVjoyGUI.csproj.GenerateResource.Cache
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Debug\MouseToVjoyGUI.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Debug\MouseToVjoyGUI.exe
+C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Debug\MouseToVjoyGUI.pdb

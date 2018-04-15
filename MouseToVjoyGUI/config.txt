@@ -1,0 +1,25 @@
+Sensitivity = 6
+AttackTimeThrottle = 200
+ReleaseTimeThrottle = 100
+AttackTimeBreak = 200
+ReleaseTimeBreak = 100
+AttackTimeClutch = 200
+ReleaseTimeClutch = 200
+ThrottleKey = 87
+BreakKey = 69
+ClutchKey = 67
+GearShiftUpKey = 83
+GearShiftDownKey = 68
+HandBrakeKey = 32
+MouseLockKey = 0
+MouseCenterKey = 0
+UseMouse = 1
+UseCenterReduction = 1
+UseForceFeedback = 1
+AccelerationThrottle = 1.01
+AccelerationBreak = 1.01
+AccelerationClutch = 1.01
+CenterMultiplier = 1.2
+
+Use keycodes from 0 TO 165
+http://keycode.info
