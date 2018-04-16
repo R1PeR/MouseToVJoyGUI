@@ -12,8 +12,8 @@ namespace MouseToVjoyGUI
     static class Program
     {
         //Console debug code
-        [DllImport("kernel32.dll", EntryPoint = "AllocConsole", SetLastError = true, CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
-        private static extern int AllocConsole();
+        //[DllImport("kernel32.dll", EntryPoint = "AllocConsole", SetLastError = true, CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
+        //private static extern int AllocConsole();
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
         /// </summary>

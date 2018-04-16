@@ -7,3 +7,13 @@ C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVj
 C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.exe
 C:\Users\Lenovo\source\repos\MouseToVjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.pdb
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\bin\Release\MouseToVjoyGUI.exe.config
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\bin\Release\MouseToVjoyGUI.exe
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\bin\Release\MouseToVjoyGUI.pdb
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.Form1.resources
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.Properties.Resources.resources
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.exe
+C:\Users\Lenovo\Documents\GitHub\mousetovjoyGUI\MouseToVjoyGUI\obj\Release\MouseToVjoyGUI.pdb

@@ -226,5 +226,16 @@ namespace MouseToVjoyGUI
 
         }
 
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                mtvj.Kill();
+            }
+            catch (InvalidOperationException)
+            {
+
+            }
+        }
     }
 }
