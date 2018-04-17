@@ -1,4 +1,4 @@
-﻿namespace MouseToVjoyGUI
+﻿        namespace MouseToVjoyGUI
 {
     partial class Form1
     {
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
@@ -94,30 +94,32 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(0, 0);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            series2.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            series2.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Single;
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(576, 538);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Single;
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(564, 528);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.IsSplitterFixed = true;
+            this.splitContainer1.Location = new System.Drawing.Point(5, 5);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(20);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -127,13 +129,14 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.chart1);
-            this.splitContainer1.Size = new System.Drawing.Size(858, 538);
-            this.splitContainer1.SplitterDistance = 278;
+            this.splitContainer1.Size = new System.Drawing.Size(848, 528);
+            this.splitContainer1.SplitterDistance = 280;
             this.splitContainer1.TabIndex = 3;
             // 
             // splitContainer2
             // 
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.IsSplitterFixed = true;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
             this.splitContainer2.Name = "splitContainer2";
             this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -145,8 +148,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.splitContainer3);
-            this.splitContainer2.Size = new System.Drawing.Size(278, 538);
-            this.splitContainer2.SplitterDistance = 480;
+            this.splitContainer2.Size = new System.Drawing.Size(280, 528);
+            this.splitContainer2.SplitterDistance = 471;
             this.splitContainer2.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -216,7 +219,8 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(278, 475);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(280, 475);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -225,7 +229,7 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 25);
+            this.label1.Size = new System.Drawing.Size(182, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Sensitivity";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -236,7 +240,7 @@
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label18.Location = new System.Drawing.Point(3, 425);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(181, 25);
+            this.label18.Size = new System.Drawing.Size(182, 25);
             this.label18.TabIndex = 18;
             this.label18.Text = "AccelerationClutch ";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -247,7 +251,7 @@
             this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label17.Location = new System.Drawing.Point(3, 400);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(181, 25);
+            this.label17.Size = new System.Drawing.Size(182, 25);
             this.label17.TabIndex = 17;
             this.label17.Text = "AccelerationBreak ";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -258,7 +262,7 @@
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label16.Location = new System.Drawing.Point(3, 375);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(181, 25);
+            this.label16.Size = new System.Drawing.Size(182, 25);
             this.label16.TabIndex = 16;
             this.label16.Text = "AccelerationThrottle ";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -269,7 +273,7 @@
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label15.Location = new System.Drawing.Point(3, 350);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(181, 25);
+            this.label15.Size = new System.Drawing.Size(182, 25);
             this.label15.TabIndex = 15;
             this.label15.Text = "MouseCenterKey ";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -280,7 +284,7 @@
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label14.Location = new System.Drawing.Point(3, 325);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(181, 25);
+            this.label14.Size = new System.Drawing.Size(182, 25);
             this.label14.TabIndex = 14;
             this.label14.Text = "MouseLockKey ";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -291,7 +295,7 @@
             this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label13.Location = new System.Drawing.Point(3, 300);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(181, 25);
+            this.label13.Size = new System.Drawing.Size(182, 25);
             this.label13.TabIndex = 13;
             this.label13.Text = "HandBrakeKey ";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -302,7 +306,7 @@
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label12.Location = new System.Drawing.Point(3, 275);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(181, 25);
+            this.label12.Size = new System.Drawing.Size(182, 25);
             this.label12.TabIndex = 12;
             this.label12.Text = "GearShiftDownKey ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -313,7 +317,7 @@
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label11.Location = new System.Drawing.Point(3, 250);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(181, 25);
+            this.label11.Size = new System.Drawing.Size(182, 25);
             this.label11.TabIndex = 11;
             this.label11.Text = "GearShiftUpKey ";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -324,7 +328,7 @@
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Location = new System.Drawing.Point(3, 225);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(181, 25);
+            this.label10.Size = new System.Drawing.Size(182, 25);
             this.label10.TabIndex = 10;
             this.label10.Text = "ClutchKey ";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -335,7 +339,7 @@
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Location = new System.Drawing.Point(3, 200);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(181, 25);
+            this.label9.Size = new System.Drawing.Size(182, 25);
             this.label9.TabIndex = 9;
             this.label9.Text = "BreakKey ";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -346,7 +350,7 @@
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Location = new System.Drawing.Point(3, 175);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(181, 25);
+            this.label8.Size = new System.Drawing.Size(182, 25);
             this.label8.TabIndex = 8;
             this.label8.Text = "ThrottleKey ";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -357,7 +361,7 @@
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Location = new System.Drawing.Point(3, 150);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(181, 25);
+            this.label7.Size = new System.Drawing.Size(182, 25);
             this.label7.TabIndex = 7;
             this.label7.Text = "ReleaseTimeClutch ";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -368,7 +372,7 @@
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Location = new System.Drawing.Point(3, 125);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(181, 25);
+            this.label6.Size = new System.Drawing.Size(182, 25);
             this.label6.TabIndex = 6;
             this.label6.Text = "AttackTimeClutch ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -379,7 +383,7 @@
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Location = new System.Drawing.Point(3, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(181, 25);
+            this.label2.Size = new System.Drawing.Size(182, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "AttackTimeThrottle ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -390,7 +394,7 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Location = new System.Drawing.Point(3, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(181, 25);
+            this.label3.Size = new System.Drawing.Size(182, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "ReleaseTimeThrottle ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -401,7 +405,7 @@
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Location = new System.Drawing.Point(3, 100);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(181, 25);
+            this.label5.Size = new System.Drawing.Size(182, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "ReleaseTimeBreak ";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -412,7 +416,7 @@
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Location = new System.Drawing.Point(3, 75);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 25);
+            this.label4.Size = new System.Drawing.Size(182, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "AttackTimeBreak ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -420,164 +424,164 @@
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(190, 3);
+            this.textBox1.Location = new System.Drawing.Point(191, 3);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(85, 20);
-            this.textBox1.TabIndex = 19;
+            this.textBox1.Size = new System.Drawing.Size(86, 20);
+            this.textBox1.TabIndex = 20;
             this.textBox1.TextChanged += new System.EventHandler(this.onChange);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnterWithDot);
             // 
             // textBox2
             // 
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(190, 28);
+            this.textBox2.Location = new System.Drawing.Point(191, 28);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(85, 20);
-            this.textBox2.TabIndex = 20;
+            this.textBox2.Size = new System.Drawing.Size(86, 20);
+            this.textBox2.TabIndex = 21;
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox3
             // 
             this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox3.Location = new System.Drawing.Point(190, 53);
+            this.textBox3.Location = new System.Drawing.Point(191, 53);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 20);
-            this.textBox3.TabIndex = 21;
+            this.textBox3.Size = new System.Drawing.Size(86, 20);
+            this.textBox3.TabIndex = 22;
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox4
             // 
             this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox4.Location = new System.Drawing.Point(190, 78);
+            this.textBox4.Location = new System.Drawing.Point(191, 78);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(85, 20);
-            this.textBox4.TabIndex = 22;
+            this.textBox4.Size = new System.Drawing.Size(86, 20);
+            this.textBox4.TabIndex = 23;
             this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox5
             // 
             this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox5.Location = new System.Drawing.Point(190, 103);
+            this.textBox5.Location = new System.Drawing.Point(191, 103);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(85, 20);
-            this.textBox5.TabIndex = 23;
+            this.textBox5.Size = new System.Drawing.Size(86, 20);
+            this.textBox5.TabIndex = 24;
             this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox6
             // 
             this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox6.Location = new System.Drawing.Point(190, 128);
+            this.textBox6.Location = new System.Drawing.Point(191, 128);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(85, 20);
-            this.textBox6.TabIndex = 24;
+            this.textBox6.Size = new System.Drawing.Size(86, 20);
+            this.textBox6.TabIndex = 25;
             this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox7
             // 
             this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox7.Location = new System.Drawing.Point(190, 153);
+            this.textBox7.Location = new System.Drawing.Point(191, 153);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(85, 20);
-            this.textBox7.TabIndex = 25;
+            this.textBox7.Size = new System.Drawing.Size(86, 20);
+            this.textBox7.TabIndex = 26;
             this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox8
             // 
             this.textBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox8.Location = new System.Drawing.Point(190, 178);
+            this.textBox8.Location = new System.Drawing.Point(191, 178);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(85, 20);
-            this.textBox8.TabIndex = 26;
+            this.textBox8.Size = new System.Drawing.Size(86, 20);
+            this.textBox8.TabIndex = 27;
             this.textBox8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox9
             // 
             this.textBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox9.Location = new System.Drawing.Point(190, 203);
+            this.textBox9.Location = new System.Drawing.Point(191, 203);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(85, 20);
-            this.textBox9.TabIndex = 27;
+            this.textBox9.Size = new System.Drawing.Size(86, 20);
+            this.textBox9.TabIndex = 28;
             this.textBox9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox10
             // 
             this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox10.Location = new System.Drawing.Point(190, 228);
+            this.textBox10.Location = new System.Drawing.Point(191, 228);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(85, 20);
-            this.textBox10.TabIndex = 28;
+            this.textBox10.Size = new System.Drawing.Size(86, 20);
+            this.textBox10.TabIndex = 29;
             this.textBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox11
             // 
             this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox11.Location = new System.Drawing.Point(190, 253);
+            this.textBox11.Location = new System.Drawing.Point(191, 253);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(85, 20);
-            this.textBox11.TabIndex = 29;
+            this.textBox11.Size = new System.Drawing.Size(86, 20);
+            this.textBox11.TabIndex = 30;
             this.textBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox12
             // 
             this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox12.Location = new System.Drawing.Point(190, 278);
+            this.textBox12.Location = new System.Drawing.Point(191, 278);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(85, 20);
-            this.textBox12.TabIndex = 30;
+            this.textBox12.Size = new System.Drawing.Size(86, 20);
+            this.textBox12.TabIndex = 31;
             this.textBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox13
             // 
             this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox13.Location = new System.Drawing.Point(190, 303);
+            this.textBox13.Location = new System.Drawing.Point(191, 303);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(85, 20);
-            this.textBox13.TabIndex = 31;
+            this.textBox13.Size = new System.Drawing.Size(86, 20);
+            this.textBox13.TabIndex = 32;
             this.textBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox14
             // 
             this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox14.Location = new System.Drawing.Point(190, 328);
+            this.textBox14.Location = new System.Drawing.Point(191, 328);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(85, 20);
-            this.textBox14.TabIndex = 32;
+            this.textBox14.Size = new System.Drawing.Size(86, 20);
+            this.textBox14.TabIndex = 33;
             this.textBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox15
             // 
             this.textBox15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox15.Location = new System.Drawing.Point(190, 353);
+            this.textBox15.Location = new System.Drawing.Point(191, 353);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(85, 20);
-            this.textBox15.TabIndex = 33;
+            this.textBox15.Size = new System.Drawing.Size(86, 20);
+            this.textBox15.TabIndex = 34;
             this.textBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnter);
             // 
             // textBox16
             // 
             this.textBox16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox16.Location = new System.Drawing.Point(190, 378);
+            this.textBox16.Location = new System.Drawing.Point(191, 378);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(85, 20);
-            this.textBox16.TabIndex = 34;
+            this.textBox16.Size = new System.Drawing.Size(86, 20);
+            this.textBox16.TabIndex = 35;
             this.textBox16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnterWithDot);
             // 
             // textBox17
             // 
             this.textBox17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox17.Location = new System.Drawing.Point(190, 403);
+            this.textBox17.Location = new System.Drawing.Point(191, 403);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(85, 20);
-            this.textBox17.TabIndex = 35;
+            this.textBox17.Size = new System.Drawing.Size(86, 20);
+            this.textBox17.TabIndex = 36;
             this.textBox17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnterWithDot);
             // 
             // textBox18
             // 
             this.textBox18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox18.Location = new System.Drawing.Point(190, 428);
+            this.textBox18.Location = new System.Drawing.Point(191, 428);
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(85, 20);
-            this.textBox18.TabIndex = 36;
+            this.textBox18.Size = new System.Drawing.Size(86, 20);
+            this.textBox18.TabIndex = 37;
             this.textBox18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onTextEnterWithDot);
             // 
             // label19
@@ -586,23 +590,24 @@
             this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label19.Location = new System.Drawing.Point(3, 450);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(181, 25);
-            this.label19.TabIndex = 37;
+            this.label19.Size = new System.Drawing.Size(182, 25);
+            this.label19.TabIndex = 19;
             this.label19.Text = "CenterMultiplier";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox19
             // 
             this.textBox19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox19.Location = new System.Drawing.Point(190, 453);
+            this.textBox19.Location = new System.Drawing.Point(191, 453);
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(85, 20);
+            this.textBox19.Size = new System.Drawing.Size(86, 20);
             this.textBox19.TabIndex = 38;
             this.textBox19.TextChanged += new System.EventHandler(this.onChange);
             // 
             // splitContainer3
             // 
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer3.IsSplitterFixed = true;
             this.splitContainer3.Location = new System.Drawing.Point(0, 0);
             this.splitContainer3.Name = "splitContainer3";
             // 
@@ -613,8 +618,8 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.button1);
-            this.splitContainer3.Size = new System.Drawing.Size(278, 54);
-            this.splitContainer3.SplitterDistance = 138;
+            this.splitContainer3.Size = new System.Drawing.Size(280, 53);
+            this.splitContainer3.SplitterDistance = 141;
             this.splitContainer3.TabIndex = 0;
             // 
             // checkedListBox1
@@ -627,7 +632,7 @@
             "UseForceFeedback"});
             this.checkedListBox1.Location = new System.Drawing.Point(0, 0);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(138, 54);
+            this.checkedListBox1.Size = new System.Drawing.Size(141, 53);
             this.checkedListBox1.TabIndex = 0;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.onChange);
             // 
@@ -636,7 +641,7 @@
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 54);
+            this.button1.Size = new System.Drawing.Size(135, 53);
             this.button1.TabIndex = 0;
             this.button1.Text = "OFF";
             this.button1.UseVisualStyleBackColor = true;
@@ -650,6 +655,7 @@
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
+            this.Padding = new System.Windows.Forms.Padding(5);
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
@@ -696,6 +702,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -714,11 +721,10 @@
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.SplitContainer splitContainer3;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.Button button1;   
     }
 }
 
