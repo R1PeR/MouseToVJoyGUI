@@ -19,6 +19,12 @@ Useful for racing games, created especially for Assetto Corsa to remove traction
 Some games I tested it with: Assetto Corsa, Live For Speed, Rfactor.
 
 ## Release History
+* BETA 0.6
+    * ADD: New binaries
+* BETA 0.5
+    * ADD: New binaries    
+* BETA 0.4
+    * ADD: New binaries
 * BETA 0.3
     * ADD: Padding to form
     * CHANGE: Form splitters to 'fixed' 
