@@ -1,0 +1,29 @@
+Sensitivity = 0
+AttackTimeThrottle = 0
+ReleaseTimeThrottle = 0
+AttackTimeBreak = 0
+ReleaseTimeBreak = 0
+AttackTimeClutch = 0
+ReleaseTimeClutch = 0
+ThrottleKey = 0
+BreakKey = 0
+ClutchKey = 0
+GearShiftUpKey = 0
+GearShiftDownKey = 0
+HandBrakeKey = 0
+MouseLockKey = 0
+MouseCenterKey = 0
+UseMouse = 0
+UseCenterReduction = 0
+UseForceFeedback = 0
+UseWheelAsShifter = 1
+AccelerationThrottle = 0
+AccelerationBreak = 0
+AccelerationClutch = 0
+CenterMultiplier = 0
+
+
+Use keycodes from 0 TO 165
+
+
+http://keycode.info

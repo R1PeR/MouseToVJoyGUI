@@ -13,7 +13,7 @@ namespace MouseToVjoyGUI
 {
     public partial class Form1 : Form
     {
-        Reader reader = new Reader(22);
+        Reader reader = new Reader(23);
         Double centerMultiplier;
         TextBox[] textBoxes;
         Process mtvj = new Process();
@@ -43,10 +43,11 @@ namespace MouseToVjoyGUI
             checkedListBox1.SetItemChecked(0, Convert.ToBoolean(reader.getData(15)));
             checkedListBox1.SetItemChecked(1, Convert.ToBoolean(reader.getData(16)));
             checkedListBox1.SetItemChecked(2, Convert.ToBoolean(reader.getData(17)));
-            textBox16.Text = "" + reader.getData(18);
-            textBox17.Text = "" + reader.getData(19);
-            textBox18.Text = "" + reader.getData(20);
-            textBox19.Text = "" + reader.getData(21);
+            checkedListBox1.SetItemChecked(3, Convert.ToBoolean(reader.getData(18)));
+            textBox16.Text = "" + reader.getData(19);
+            textBox17.Text = "" + reader.getData(20);
+            textBox18.Text = "" + reader.getData(21);
+            textBox19.Text = "" + reader.getData(22);
             chart1.ChartAreas[0].AxisX.Maximum = 100;
             chart1.ChartAreas[0].AxisX.Minimum = -100;
             chart1.Series["Series1"].Points.Clear();
@@ -160,10 +161,11 @@ namespace MouseToVjoyGUI
                     reader.setData(15, Convert.ToInt16(checkedListBox1.GetItemCheckState(0)));
                     reader.setData(16, Convert.ToInt16(checkedListBox1.GetItemCheckState(1)));
                     reader.setData(17, Convert.ToInt16(checkedListBox1.GetItemCheckState(2)));
-                    reader.setData(18, Convert.ToDouble(textBox16.Text));
-                    reader.setData(19, Convert.ToDouble(textBox17.Text));
-                    reader.setData(20, Convert.ToDouble(textBox18.Text));
-                    reader.setData(21, Convert.ToDouble(textBox19.Text));
+                    reader.setData(18, Convert.ToInt16(checkedListBox1.GetItemCheckState(2)));
+                    reader.setData(19, Convert.ToDouble(textBox16.Text));
+                    reader.setData(20, Convert.ToDouble(textBox17.Text));
+                    reader.setData(21, Convert.ToDouble(textBox18.Text));
+                    reader.setData(22, Convert.ToDouble(textBox19.Text));
                     reader.writeFile("config.txt");
                     try {
                         mtvj.Start();

@@ -64,10 +64,11 @@ namespace MouseToVjoyGUI
             streamWriter.WriteLine("UseMouse = " + getData(15));
             streamWriter.WriteLine("UseCenterReduction = " + getData(16));
             streamWriter.WriteLine("UseForceFeedback = " + getData(17));
-            streamWriter.WriteLine("AccelerationThrottle = " + getData(18));
-            streamWriter.WriteLine("AccelerationBreak = " + getData(19));
-            streamWriter.WriteLine("AccelerationClutch = " + getData(20));
-            streamWriter.WriteLine("CenterMultiplier = " + getData(21));
+            streamWriter.WriteLine("UseWheelAsShifter = " + getData(19));
+            streamWriter.WriteLine("AccelerationThrottle = " + getData(19));
+            streamWriter.WriteLine("AccelerationBreak = " + getData(20));
+            streamWriter.WriteLine("AccelerationClutch = " + getData(21));
+            streamWriter.WriteLine("CenterMultiplier = " + getData(22));
             streamWriter.WriteLine("\n");
             streamWriter.WriteLine("Use keycodes from 0 TO 165");
             streamWriter.WriteLine("\n");
