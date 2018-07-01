@@ -161,7 +161,7 @@ namespace MouseToVjoyGUI
                     reader.setData(15, Convert.ToInt16(checkedListBox1.GetItemCheckState(0)));
                     reader.setData(16, Convert.ToInt16(checkedListBox1.GetItemCheckState(1)));
                     reader.setData(17, Convert.ToInt16(checkedListBox1.GetItemCheckState(2)));
-                    reader.setData(18, Convert.ToInt16(checkedListBox1.GetItemCheckState(2)));
+                    reader.setData(18, Convert.ToInt16(checkedListBox1.GetItemCheckState(3)));
                     reader.setData(19, Convert.ToDouble(textBox16.Text));
                     reader.setData(20, Convert.ToDouble(textBox17.Text));
                     reader.setData(21, Convert.ToDouble(textBox18.Text));
