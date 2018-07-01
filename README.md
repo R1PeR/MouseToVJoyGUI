@@ -19,7 +19,7 @@ Useful for racing games, created especially for Assetto Corsa to remove traction
 Some games I tested it with: Assetto Corsa, Live For Speed, Rfactor.
 
 ## Release History
-* BETA 0.6
+* BETA 0.8
     * FIX: `UseWheelAsShifter` not saving correctly.
 * BETA 0.7
     * ADD: `UseWheelAsShifter`
