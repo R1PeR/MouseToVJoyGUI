@@ -20,6 +20,11 @@ Some games I tested it with: Assetto Corsa, Live For Speed, Rfactor.
 
 ## Release History
 * BETA 0.6
+    * FIX: 'UseWheelAsShifter' not saving correctly.
+* BETA 0.7
+    * ADD: 'UseWheelAsShifter'
+    * ADD: New binaries
+* BETA 0.6
     * ADD: New binaries
 * BETA 0.5
     * ADD: New binaries    
