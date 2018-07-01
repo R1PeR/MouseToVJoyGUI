@@ -19,6 +19,11 @@ Useful for racing games, created especially for Assetto Corsa to remove traction
 Some games I tested it with: Assetto Corsa, Live For Speed, Rfactor.
 
 ## Release History
+* BETA 0.8
+    * FIX: `UseWheelAsShifter` not saving correctly.
+* BETA 0.7
+    * ADD: `UseWheelAsShifter`
+    * ADD: New binaries
 * BETA 0.6
     * ADD: New binaries
 * BETA 0.5
@@ -27,7 +32,7 @@ Some games I tested it with: Assetto Corsa, Live For Speed, Rfactor.
     * ADD: New binaries
 * BETA 0.3
     * ADD: Padding to form
-    * CHANGE: Form splitters to 'fixed' 
+    * CHANGE: Form splitters to `fixed` 
 * BETA 0.2
     * ADD: Code that closes MouseToVJoy on GUI exit.
 * BETA 0.1
@@ -175,6 +180,13 @@ Whenever to use forcefeedback.
 
 E.g. UseForceFeedback = 1
 
+### UseWheelAsShifter
+
+Whenever to use mouse wheel as a sequential shifter.
+Mouse wheel up for next gear and mouse wheel down for lower gear.
+0 for Disable, 1 for Enable.
+
+E.g. UseWheelAsShifter = 1
 
 ### AccelerationThrottle
 
