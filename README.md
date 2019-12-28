@@ -5,6 +5,10 @@ Simple application that converts mouse/keyboard input to vjoy output, created us
 
 ![](header.png)
 
+## Download
+
+Releases tap on github or https://github.com/R1PeR/MouseToVJoyGUI/releases. You need all four files
+
 ## Installation
 
 Windows:
